@@ -1,0 +1,49 @@
+Pseducodigo para Tarea 1
+
+Solicitar al usuario que digite 2 numeros enteros
+int numero_1
+int numero_1 = 0
+int numero_2
+int numero_2 = 0
+
+Digite primer numero
+cin numero_1
+Digite el segundo numero
+cin numero_2
+
+Calculos
+
+calculo de mayores()
+if numero_1 > numero_2 then
+cout numero_1 "es el mayor y " numero_2 "es el menor"
+else
+cout numero_2 "es el mayor y " numero_1 "es el menor"
+
+
+calculo de multiplos()
+if numero_1 != 0 and numero_2 !=0
+then
+
+if numero_1 % numero_2 = 0
+cout numero_1 es multiplo de numero_2
+else
+if numero_2 % numero_1
+cout numero_2 es multiplo de numero_2
+else
+cout "los numeros no son multiplos"
+
+calculo de maximo comun Divisor ()
+
+calculo de suma ()
+
+calculo resta primero menos segundo ()
+
+la multiplicacion del primero por el segundo ()
+
+la division entera del primero por el segundo ()
+
+el residuo de la division entera del primero por el segundo ()
+
+la suma de los digitos de cada uno de los valores ()
+
+el valor pasado a letras de cada uno de los valores ()
