@@ -1,0 +1,19 @@
+
+viaje
+solicitar litros utlizados
+guardar litros en memoria
+solicitar kilometros recorridos
+guardar km en memoria
+
+mientras litros no sea 0
+entonces calcular viaje
+
+calcular km/lt
+desplegar resultado de km/lt
+sumar resultado a total de km/lt
+
+agregar 1 a contador de viaje
+
+cuando el usuario salga con litros = 0
+entonces total de suma / contador de viaje
+desplegar resultado
