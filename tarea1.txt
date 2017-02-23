@@ -1,0 +1,18 @@
+Practica tarea 1
+Realizar un programa que lea 2 valores numéricos al usuario y mediante una
+misma función retorne (usar parámetros por referencia):
+· El menor de los dos números
+· El mayor de los dos números
+· Si el primero es múltiplo del segundo
+· Si el segundo es múltiplo del primero
+· El Máximo Común Divisor
+· La suma de ambos
+· La resta del primero menos el segundo
+· El valor absoluto de la resta del primero menos el segundo
+· La multiplicación del primero por el segundo
+· La división entera del primero por el segundo
+· El residuo de la división entera del primero por el segundo
+· La suma de los dígitos de cada uno de los valores
+· El valor pasado a letras (hilera de caracteres) de cada uno de los
+valores.
+Recuerde la importancia de usar funciones (modularizar).
