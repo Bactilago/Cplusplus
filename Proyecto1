@@ -1,0 +1,47 @@
+Descripción del proyecto
+Proyecto No1.
+Cuando un empleado se incapacita, la CCSS paga un subsidio correspondiente
+al 60% del salario promedio diario de los últimos 3 meses donde no exista
+incapacidad a partir del cuarto día.
+Usted debe desarrollar un programa que solicite calcule el subsidio
+correspondiente a un empleado si se ingresa:
+· Fecha inicio incapacidad (día – mes –año)
+· Fecha fin incapacidad (día – mes –año)
+· Salario del último mes sin incapacidad
+· Salario del penúltimo mes sin incapacidad
+· Salario del ante-penúltimo mes sin incapacidad
+
+Cada uno de los valores debe ser almacenado en variables individuales y
+justificar la escogencia del tipo de datos a utilizar.
+Con la información en memoria, el programa deberá calcular el subsidio
+correspondiente e imprimirla en pantalla de una forma clara y ordenada.
+
+El programa debe solicitar la información hasta que el usuario indique que
+desea salir del sistema.
+Ejemplo:
+Si un empleado se incapacita del 15/02/2012 al 20/02/2012 son 5 días de
+incapacidad y le corresponde un subsidio por 2 días. Si sus últimos tres salarios son
+100.000, 150.000 y 125.000, el promedio mensual es de 125.000 y el promedio
+diario (dividido por 30 días) es de 4166,66, por lo que el subsidio total es de
+4166.66 * 2 = 8333,33
+Note que debe controlar la diferencia en: días y meses, es decir, si la fecha inicial
+es 30/01/2012 y la fecha final es 15/02/2012, la cantidad de días es de 17 días. Y
+entre 15/12/2011 y el 02/02/2012 es de 48 días.
+
+
+string empleado
+
+int dias por mes = 30
+
+double subsidio = 60% > 3 dias
+double subsidio = 50% <= 3 dias
+double salario por mes
+double promedio salario 3 meses
+double Salario del último mes sin incapacidad
+double Salario del penúltimo mes sin incapacidad
+double Salario del ante-penúltimo mes sin incapacidad
+double promedio diario = promedio mensual / diasMes
+
+
+time inicio incapacidad (día – mes –año)
+time fin incapacidad (día – mes –año)
