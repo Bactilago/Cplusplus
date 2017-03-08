@@ -33,8 +33,20 @@ int main() {
 	int y[3]={6,7,8};
 	printArray(x,5);
 	printArray(y,3);
-	
-	
+
+
+	cout << "-----Print multidimensional arrays----" << endl;
+
+	int table[2][3] = {{5,6,7},{9,8,7}};
+	for (int row = 0; row < 2; row++) {
+		for (int column = 0; column < 3; column++) {
+			cout << table[row],[column] << " ";
+		}
+		endl;
+	}
+
+
+
 	return 0; // end of main
 }
 
