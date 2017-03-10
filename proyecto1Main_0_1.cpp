@@ -6,14 +6,7 @@ using std::endl;
 using std::flush;
 
 
-	tm capturaFecha(int year, int month, int day)
-{
-    tm tm = {0};
-    tm.tm_year = year - 1900; // years count from 1900
-    tm.tm_mon = month - 1;    // months count from January=0
-    tm.tm_mday = day;         // days count from 1
-    return tm;
-}
+
 
 	int ingresaAnho() {
 		cout << "Ingrese anho (YYYY): " << flush;
@@ -111,7 +104,14 @@ using std::flush;
 		return diaUsuario;
 	}
 
-
+	tm capturaFecha(int year, int month, int day)
+{
+    tm tm = {0};
+    tm.tm_year = year - 1900; // years count from 1900
+    tm.tm_mon = month - 1;    // months count from January=0
+    tm.tm_mday = day;         // days count from 1
+    return tm;
+}
 int main()
 {
 
@@ -146,4 +146,3 @@ int main()
 	cout << "Fecha inicial: "<< dia << "/" << mes << "/" <<  year << endl;
 	return 0;
 }
-    

@@ -118,3 +118,11 @@ int main()
 
   return 0;
 }
+
+
+int ingresaAnho() {
+	cout << "Ingrese anho (YYYY): " << flush;
+	int userYear;
+	cin >> userYear;
+	return userYear;
+}
